@@ -1,4 +1,5 @@
 import 'package:animations/pages/bouncing_ball_page.dart';
+import 'package:animations/pages/rotating_box_page.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -34,6 +35,16 @@ class _HomePageState extends State<HomePage> {
               child: const Text(
                 "Bouncing Ball",
               ),
+            ),
+          ),
+          TextButton(
+            onPressed: () {
+              context.navigateToNextPage(
+                RoatatingBoxPage(),
+              );
+            },
+            child: const Text(
+              "Rotating Box",
             ),
           )
         ],
