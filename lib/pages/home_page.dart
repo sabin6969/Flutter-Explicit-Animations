@@ -1,5 +1,6 @@
 import 'package:animations/pages/bouncing_ball_page.dart';
 import 'package:animations/pages/rotating_box_page.dart';
+import 'package:animations/pages/spinning_arc.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -45,6 +46,19 @@ class _HomePageState extends State<HomePage> {
             },
             child: const Text(
               "Rotating Box",
+            ),
+          ),
+          TextButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => SpinningArc(),
+                ),
+              );
+            },
+            child: const Text(
+              "Spinning Arc",
             ),
           )
         ],
