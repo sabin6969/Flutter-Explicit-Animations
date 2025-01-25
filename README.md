@@ -1,16 +1,5 @@
-# animations
+## Animation Demo
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Bouncing Ball Animation | Rotating Box | Spinning Arc |
+|------------------------|--------------|--------------|
+| ![Bouncing Ball Animation](https://github.com/user-attachments/assets/501114a7-7d50-43a2-a4f9-b81f37fd05a1) | ![Rotating Box](https://github.com/user-attachments/assets/0e262b67-3fdd-43f5-bd4a-c4e00c77af47) | ![Spinning Arc](https://github.com/user-attachments/assets/f5e39000-8076-4f93-9f34-a8e868fb37a6) |
