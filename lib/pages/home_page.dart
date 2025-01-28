@@ -1,5 +1,6 @@
 import 'package:animations/pages/bouncing_ball_page.dart';
 import 'package:animations/pages/rotating_box_page.dart';
+import 'package:animations/pages/slider_animation_page.dart';
 import 'package:animations/pages/spinning_arc.dart';
 import 'package:flutter/material.dart';
 
@@ -59,6 +60,19 @@ class _HomePageState extends State<HomePage> {
             },
             child: const Text(
               "Spinning Arc",
+            ),
+          ),
+          TextButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => SliderAnimation(),
+                ),
+              );
+            },
+            child: const Text(
+              "Sliding Logo",
             ),
           )
         ],
