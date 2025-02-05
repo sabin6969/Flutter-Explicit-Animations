@@ -4,6 +4,8 @@ import 'package:animations/pages/slider_animation_page.dart';
 import 'package:animations/pages/spinning_arc.dart';
 import 'package:flutter/material.dart';
 
+import 'wave_animation.dart';
+
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
@@ -73,6 +75,19 @@ class _HomePageState extends State<HomePage> {
             },
             child: const Text(
               "Sliding Logo",
+            ),
+          ),
+          TextButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => WaveAnimation(),
+                ),
+              );
+            },
+            child: const Text(
+              "Wave Animation",
             ),
           )
         ],
