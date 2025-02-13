@@ -4,6 +4,7 @@ import 'package:animations/pages/slider_animation_page.dart';
 import 'package:animations/pages/spinning_arc.dart';
 import 'package:flutter/material.dart';
 
+import 'animated_button.dart';
 import 'wave_animation.dart';
 
 class HomePage extends StatefulWidget {
@@ -88,6 +89,16 @@ class _HomePageState extends State<HomePage> {
             },
             child: const Text(
               "Wave Animation",
+            ),
+          ),
+          TextButton(
+            onPressed: () {
+              context.navigateToNextPage(
+                AnimatedButton(),
+              );
+            },
+            child: const Text(
+              "Animated Button",
             ),
           )
         ],
