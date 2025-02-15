@@ -67,7 +67,7 @@ class _AnimatedButtonState extends State<AnimatedButton>
                   ),
                   child: Container(
                     height: 65,
-                    width: _animation.value * size.width * 0.8,
+                    width: _animation.value * (size.width * 0.8),
                     decoration: BoxDecoration(
                       color: Colors.red,
                       shape: _animationController.status ==
