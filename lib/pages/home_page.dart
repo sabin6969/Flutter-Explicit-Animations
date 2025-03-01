@@ -1,5 +1,6 @@
 import 'package:animations/pages/bouncing_ball_page.dart';
 import 'package:animations/pages/deadline_animation.dart';
+import 'package:animations/pages/favourite_animation.dart';
 import 'package:animations/pages/rotating_box_page.dart';
 import 'package:animations/pages/slider_animation_page.dart';
 import 'package:animations/pages/spinning_arc.dart';
@@ -110,6 +111,16 @@ class _HomePageState extends State<HomePage> {
             },
             child: const Text(
               "Deadline Animation",
+            ),
+          ),
+          TextButton(
+            onPressed: () {
+              context.navigateToNextPage(
+                FavouriteAnimation(),
+              );
+            },
+            child: const Text(
+              "Favourite Animation",
             ),
           )
         ],
