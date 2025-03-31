@@ -1,3 +1,4 @@
+import 'package:animations/pages/animated_circular_progress_indicator.dart';
 import 'package:animations/pages/bouncing_ball_page.dart';
 import 'package:animations/pages/deadline_animation.dart';
 import 'package:animations/pages/favourite_animation.dart';
@@ -121,6 +122,16 @@ class _HomePageState extends State<HomePage> {
             },
             child: const Text(
               "Favourite Animation",
+            ),
+          ),
+          TextButton(
+            onPressed: () {
+              context.navigateToNextPage(
+                AnimatedCircularProgressIndicator(),
+              );
+            },
+            child: const Text(
+              "Circular Progress Indicator Animation",
             ),
           )
         ],
